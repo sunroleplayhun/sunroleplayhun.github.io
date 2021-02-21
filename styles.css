@@ -1,0 +1,109 @@
+body {
+  background: gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(/img/WallpaperDog-1001618.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+}
+
+header li {
+  display: inline-block;
+  color: yellow;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+header .logo a {
+  background-image: url(/img/logo.png);
+  background-size: 120px;
+  display: inline-block;
+  width: 120px;
+  height: 110px;
+  text-indent: -999999px;
+}
+
+header .title {
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px black;
+}
+
+section {
+  background-image: url(/img/background.jpg);
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  background-image: url(/img/WallpaperDog-17119386.jpg);
+}
+
+section div {
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+}
+
+.text div {
+  text-align: left;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+section p {
+  font-size: 20px;
+  height: 1000px;
+}
+
+.nav div {
+  width: 100px;
+  text-align: center;
+}
+
+.nav a:hover {
+  border-radius: 20px;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 255);
+}
+
+.discord a:hover {
+  background: #7289da;
+}
+
+footer {
+  display: flex;
+  background: black;
+  padding: 10px 20px;
+}
+footer div {
+  display: inline-block;
+  margin-left: 0px;
+}
+footer .foot {
+  text-indent: 540px;
+}
+
+@media screen and (max-width: 584px) {
+  header .title {
+    font-size: 43px;
+    position: relative;
+    top: 10px;
+  }
+}
