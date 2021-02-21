@@ -58,13 +58,20 @@ section div {
   padding: 20px;
 }
 
-.text div {
-  text-align: left;
+.text {
+  text-align: justify;
 }
 
 section h1 {
-  text-align: center;
   font-size: 50px;
+}
+.text h1 {
+  text-align: center;
+}
+
+section div p {
+  font-size: 20px;
+  height: 1500px;
 }
 
 section p {
