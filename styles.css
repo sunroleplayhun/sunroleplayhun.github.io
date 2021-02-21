@@ -102,7 +102,7 @@ footer .foot {
 
 @media screen and (max-width: 584px) {
   header .title {
-    font-size: 35px;
+    font-size: 20px;
     position: relative;
     top: 10px;
   }
