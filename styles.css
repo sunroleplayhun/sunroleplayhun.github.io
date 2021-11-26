@@ -21,8 +21,7 @@ section header{
 }
 section header h1{
     border:solid 3px red;
-    font-size: 100px;
-    line-height:normal;
+    font-size: larger;
     color: red;
     padding-left: 50%;
     margin-top: 0;
